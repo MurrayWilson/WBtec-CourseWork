@@ -1,0 +1,84 @@
+.flex-container {
+	padding: 0;
+	margin 0;
+	list-style: none;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+}
+.flex-item{
+	background: ;
+	padding: 30px ;
+	width: 300px;
+	height: ;
+	margin-top: ;
+	
+	line-height: ;
+	color: ;
+	font-size: ;
+	text-align: ;
+}
+
+h1{
+	text-align: center;
+	margin-top: 80px;
+}
+.Start{
+  position: absolute;
+  right: 48%;
+  margin-top: 20px
+
+}
+.gameWindow{
+
+	width: 600px;
+	height: 350px;
+	background-color: black;
+	border: 1px solid black;
+	padding: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+	color: white;
+}
+
+.gameBar{ 
+	width: 600px;
+	height: 60px;
+	border: 1px solid black;
+	padding: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	list-style: none;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+
+}
+.btnFooter{
+	margin: 0;
+	position: absolute;
+	top: 30%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+#finalScore{
+	text-align: center;
+}
+.previousScore{
+
+}
+#flipBtn{
+	padding:8px;
+	margin-right: 10px;
+}
+.powerUp{
+	padding: 5px;
+	margin-right: 5px;
+}
+.stats{
+	
+}
+.statBtn{
+
+}

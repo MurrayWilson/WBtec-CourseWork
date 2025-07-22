@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Score Page</title>
+<link rel="stylesheet" href="HaT.css">
+</head>
+<body>
+<h1>Heads or Tails</h1>
+<article id="stats" style="text-align: center"></article>
+<div id="finalScore">final score</div>
+<footer class="btnFooter">
+<a href="gamepage.html"><button type="button" class="statBtn">Retry</button></a>
+<a href="titlepage.html"><button type="button" class="statBtn">Main menu</button></a>
+</footer>
+<script>
+document.getElementById("stats").innerHTML = "power ups used:" + localStorage.getItem("powerused");
+document.getElementById("finalScore").innerHTML = "previous score:" + localStorage.getItem("score");
+</script>
+<body>
+</html>

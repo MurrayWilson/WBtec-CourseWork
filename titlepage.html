@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Heads and Tails</title>
+<link rel="stylesheet" href="HaT.css">
+</head>
+<body>
+<h1>Heads or Tails</h1>
+
+<ul class="flex-container">
+	<li class="flex-item">This is heads or tails, a cave/dungeon explorer game where you make choices throughout to try get to the end, instead of being able to make choices you flip multiple types of coins to decide for you, each one chaning your odds of winning</li>
+	<li class="flex-item">PowerUps: a misprinted coin with 2 head faces guaranteeing you'll win. a spare coin letting you throw 2 and picking the better option. a chipped coin that is more likely to land on heads. a fake coin that is very likely to land on heads. a blank coin that lets you skip the encounter (1-5 only) but you recive no rewards for the encounter</li>
+</ul>
+
+<div style="text-align: center;" class="previousScore" id="prevsc">previous score</div>
+<a href="gamepage.html"><button type="button" class="Start">Start</button></a>
+<script>document.getElementById("prevsc").innerHTML = "previous score:" + localStorage.getItem("score");</script>
+<body>
+</html>
